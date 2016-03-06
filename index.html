@@ -24,21 +24,22 @@
         <div class="container">
          	<div class="row">
 	            <div class="col-md-12 text-right navicon">
-	              <a id="nav-toggle" class="nav_slide_button" href="#"><span></span></a>
+	              	<a id="nav-toggle" class="nav_slide_button" href="#"><span></span></a>
 	            </div>
           	</div>
+          	
           	<div class="row">
             	<div class="col-md-8 col-md-offset-2 text-center inner">
 					<div class="animatedParent">
 						<h1 class="animated fadeInDown">PLEASANT HOUSEKEEPING</h1>
-						<p class="animated fadeInUp">Professional home cleaning service for Mount Pleasant, SC</p>
+						<h2 class="animated fadeInUp">Live at the beach. Let us do the housekeeping!</h2>
 					</div>
 		  		</div>
           	</div>
+      		
           <div class="row">
             <div class="col-md-6 col-md-offset-3 text-center">
-            	<a href="#contact" class="learn-more-btn btn-scroll">Contact us</a>
-              	<!-- <a href="#about" class="learn-more-btn btn-scroll">Learn more</a> -->
+            	<a href="#estimate" class="learn-more-btn btn-scroll">Free Estimate</a>
             </div>
           </div>
         </div>
@@ -50,9 +51,9 @@
             <div class="container">
                 <div class="row">
                 	<div class="col-md-2">
-                		<div class="site-logo">
+                		<!-- div class="site-logo">
                             <a href="index.html" class="brand">PLEASANT HOUSEKEEPING</a>
-                        </div>
+                        </div> -->
                   </div>
                     <div class="col-md-10">
                         <!-- Brand and toggle get grouped for better mobile display -->
@@ -65,9 +66,10 @@
                         <div class="collapse navbar-collapse" id="menu">
                             <ul class="nav navbar-nav navbar-right">
                                   <li class="active"><a href="#intro">Home</a></li>
-                                  <li><a href="#about">About Us</a></li>
-								  <!-- <li><a href="#service">Services</a></li> -->
-                                  <!-- <li><a href="#works">Works</a></li>				 -->
+                                  <!-- <li><a href="#about">About Us</a></li> -->
+								  <li><a href="#service">Services</a></li>
+                                  <!-- <li><a href="#works">Works</a></li>	 -->
+                                  <li><a href="#estimate">Estimate</a></li>			
                                   <li><a href="#contact">Contact</a></li>
                             </ul>
                         </div>
@@ -80,8 +82,25 @@
     </div> 
     <!-- /Navigation -->  
 
+     <!-- Short About -->
+    <section class="" id="">
+        <div class="container">
+        	<div class="row">
+        		<div class="col-md-12 text-center short-about">
+            		<h3>You live at the beach for a reason... Get out there and enjoy the Lowcountry! And let us make your home sparkle - while you soak up the sunshine.</h3>
+            	</div>	
+         	</div>
+         	<div class="row">
+        		<div class="col-md-12 text-center">
+            		<p>Pleasant Housekeeping was formed with one goal in mind - giving time back to you by removing the burden of home cleaning. Our team specializes in using all the right touches to polish your palace. We use only natural and healthy cleaning supplies because we care about your family, pets and our lowcountry haven. Let us pleasantly suprise you with our top notch housekeeping services.</p>
+            	</div>	
+         	</div>
+         </div>
+     </section>
+	<!-- /Short About -->
+
 	<!-- Section: about -->
-    <section id="about" class="home-section color-dark bg-white">
+<!--     <section id="about" class="home-section color-dark bg-white">
 		<div class="container marginbot-50">
 			<div class="row">
 				<div class="col-lg-8 col-lg-offset-2">
@@ -99,12 +118,13 @@
 	        	<div class="col-lg-8 col-lg-offset-2 animatedParent">		
 					<div class="text-center">
 						<p>Housekeeping and cleaning services available for Isle of Plams, Sullivans Island and Mount Pleasant, SC.</p>
+						
 						<a href="#service" class="btn btn-skin btn-scroll">Service List</a>
 					</div>
 	            </div>
 	        </div>		
 		</div>
-	</section>
+	</section> -->
 	<!-- /Section: about -->
 	
 	<!-- Section: services -->
@@ -125,23 +145,27 @@
 		<div class="text-center">
 			<div class="container">
 	        	<div class="row animatedParent">
-		        	<div class="col-xs-6 col-sm-6 col-md-6">
+		        	<div class="col-xs-12 col-sm-12 col-md-12">
 						<div class="animated rotateInDownLeft">
 			                <div class="service-box">
 								<div class="service-icon">
 									<span class="fa fa-home fa-2x"></span> 
 								</div>
+
 								<div class="service-desc">						
 									<h5>Weekly housekeeping</h5>
 									<div class="divider-header"></div>
 									<p>Often the best way to have your home cleaned, is regularly. Invite us to take care of cleaning your home each week.</p>
-									<a href="#" class="btn btn-skin">Learn more</a>
+							
+									<button class="btn btn-skin showServices" type="button" data-toggle="collapse" data-target="#collapseWeeklyServices" aria-expanded="false" aria-controls="collapseWeeklyServices">Weekly services</button>
+
 								</div>
-		                	</div>
-						</div>
+							
+							</div>
+		            	</div>
 		            </div>
 	            <!-- Section: services - commenting out until we have more 'services' -->
-		            <div class="col-xs-6 col-sm-6 col-md-6">
+		            <!-- <div class="col-xs-6 col-sm-6 col-md-6">
 						<div class="animated rotateInDownLeft">
 			                <div class="service-box">
 								<div class="service-icon">
@@ -155,7 +179,7 @@
 								</div>
 			                </div>
 						</div>
-		            </div>
+		            </div> -->
 					<!-- <div class="col-xs-6 col-sm-4 col-md-4">
 						<div class="animated rotateInDownLeft slow">
 			                <div class="service-box">
@@ -186,10 +210,107 @@
 			                </div>
 						</div>
 		            </div> -->
-		    	</div>		
+		    	</div>
+
+
+
 			</div>
 		</div>
+<div class="container">
+			<div class="collapse service-list" id="collapseWeeklyServices">
+									<!-- Included services -->
+		
+
+					<div class="row service-desc">
+						<div class="col-xs-12 col-sm-6 col-md-4">
+							<h5>All Rooms</h5>
+						    <hr>
+							    <ul>
+							    	<li>Dust</li>
+							    	<li>Remove Cobwebs</li>
+							    	<li>Vacuum & Shake out rugs</li>
+							    	<li>Vacuum & Steam Mop all floors</li>
+							    	<li>Empty Waste Baskets</li>
+							    	<li>Clean entryway glass</li>
+							    	<li>Clean backdoor glass</li>
+							    	<li>Dust Blinds</li>
+							    	<li>Dust Baseboards</li>
+							    	<li>Dust Celing Fans/Light Fixtures</li>
+							    </ul>
+						</div>
+
+						<div class="col-xs-12 col-sm-6 col-md-4">
+							<h5>Kitchen</h5>
+								<hr>
+							    <ul>
+							    	<li>Wash and Disenfect all countertops/ Back splash</li>
+							    	<li>Wipe down stove top</li>
+							    	<li>Wipe down exterior of all appliances including top of fridge</li>
+							    	<li>Wash exterior and interior of microwave</li>
+							    	<li>Vacuum and Wash Floors</li>
+							    	<li>Spot wash exterior of cabinets and shelves</li>
+							    	<li>Run Dishwasher</li>
+							    	<li>Wash Plates in Sink</li>
+							    	<li>Clean and Disenfect all sinks</li>
+							    	<li>Clean and Shine Fixtures</li>
+							    </ul>
+						</div>
+
+						<div class="col-xs-12 col-sm-6 col-md-4">
+							<h5>Bathrooms</h5>
+							<hr>
+							    <ul>
+							    	<li>Empty Waste Baskets</li>
+							    	<li>Wash and Disenfect all countertops/toilets/showers/tubs/sinks</li>
+							    	<li>Clean and Shine Fixtures</li>
+							    	<li>Wipe down mirrors</li>
+							    	<li>Spot Wash exterior of cabinets and shelves</li>
+							    	<li>Vaccum and Wash Floors</li>
+							    </ul>	
+						</div>
+					</div>
+					<!-- /Included services -->
+
+					<!-- Add on services -->
+					<div class="row service-desc">
+						<div class="col-md-12">
+							<h5>Add Ons</h5>
+							<hr>
+							    <ul>
+							    	<li>Vacuum all furniture</li>
+							    	<li>Scrub Shower Tile and Grout</li>
+							    	<li>Change Sheets on all beds</li>
+							    	<li>Wash baseboards</li>
+							    	<li>Wash blinds</li>
+							    	<li>Wash celing fans</li>
+							    	<li>Clean inside oven</li>
+							    	<li>Clean inside refrigirator & freezer</li>
+							    	<li>Replace linens, towels and bath mats</li>
+							    	<li>Clean fireplace</li>
+							    	<li>Wash all doors, door frames, handrails.</li>
+							    	<li>Wash trash cans</li>
+							    </ul>	
+						</div>	
+					</div>	
+				<!-- /Add on services -->
+
+    		</div>
+    	</div>
+    </div>
 	</section>
+	<!-- Section: services list -->
+	<!-- <section>
+		<div class="collapse" id="collapseExample">
+			<div class="card card-block">
+				<p>Collapse section for weekly home cleaning service list</p>
+				<ul>
+					<li></li>
+				</ul>
+		  		
+			</div>
+		</div>
+	</section> -->
+	<!-- /Section: services list-->
 	<!-- /Section: services -->
 	
 
@@ -241,14 +362,14 @@
 	</section> -->
 	<!-- /Section: works -->
 
-	<!-- Section: contact -->
-    <section id="contact" class="home-section nopadd-bot color-dark bg-gray text-center">
+<!-- Section: estimate -->
+    <section id="estimate" class="home-section nopadd-bot color-dark bg-gray text-center">
 		<div class="container marginbot-50">
 			<div class="row">
 				<div class="col-lg-8 col-lg-offset-2">
 					<div class="animatedParent">
 						<div class="section-heading text-center">
-							<h2 class="h-bold animated bounceInDown">Get in touch with us</h2>
+							<h2 class="h-bold animated bounceInDown">ESTIMATE</h2>
 							<div class="divider-header"></div>
 						</div>
 					</div>
@@ -259,6 +380,31 @@
 		<div class="container">
 			<div class="row marginbot-80">
 				<div class="col-md-8 col-md-offset-2">
+					
+					<!-- Section: wufoo form -->
+					<div id="wufoo-mijlzln1pvp5ps"></div>
+			
+					<script type="text/javascript">var mijlzln1pvp5ps;(function(d, t) {
+					var s = d.createElement(t), options = {
+					'userName':'pleasanthousekeeping',
+					'formHash':'mijlzln1pvp5ps',
+					'autoResize':true,
+					'height':'1014',
+					'async':true,
+					'host':'wufoo.com',
+					'header':'show',
+					'ssl':true};
+					s.src = ('https:' == d.location.protocol ? 'https://' : 'http://') + 'www.wufoo.com/scripts/embed/form.js';
+					
+					s.onload = s.onreadystatechange = function() {
+					
+					var rs = this.readyState; if (rs) if (rs != 'complete') if (rs != 'loaded') return;
+					try { mijlzln1pvp5ps = new WufooForm();mijlzln1pvp5ps.initialize(options);mijlzln1pvp5ps.display(); } catch (e) {}};
+					var scr = d.getElementsByTagName(t)[0], par = scr.parentNode; par.insertBefore(s, scr);
+					})(document, 'script');</script>
+					<!-- Section: /wufoo form -->
+
+
 					<!-- 	<form id="contact-form">
 						<div class="row marginbot-20">
 							<div class="col-md-6 xs-marginbot-20">
@@ -282,26 +428,75 @@
 						</div>
 					</form> -->
 
-					<div id="wufoo-z16elat201v91lx">
-<!-- Fill out my <a href="https://pleasanthousekeeping.wufoo.com/forms/z16elat201v91lx">online form</a>. -->
-</div>
-<!-- <div id="wuf-adv" style="font-family:inherit;font-size: small;color:#a7a7a7;text-align:center;display:block;">There are tons of <a href="http://www.wufoo.com/features/">Wufoo features</a> to help make your forms awesome.</div> -->
-				<script type="text/javascript">var z16elat201v91lx;(function(d, t) {
-				var s = d.createElement(t), options = {
-				'userName':'pleasanthousekeeping',
-				'formHash':'z16elat201v91lx',
-				'autoResize':true,
-				'height':'753',
-				'async':true,
-				'host':'wufoo.com',
-				'header':'show',
-				'ssl':true};
-				s.src = ('https:' == d.location.protocol ? 'https://' : 'http://') + 'www.wufoo.com/scripts/embed/form.js';
-				s.onload = s.onreadystatechange = function() {
-				var rs = this.readyState; if (rs) if (rs != 'complete') if (rs != 'loaded') return;
-				try { z16elat201v91lx = new WufooForm();z16elat201v91lx.initialize(options);z16elat201v91lx.display(); } catch (e) {}};
-				var scr = d.getElementsByTagName(t)[0], par = scr.parentNode; par.insertBefore(s, scr);
-				})(document, 'script');</script>
+				</div>
+			</div>	
+		</div>
+	</section>
+	<!-- /Section: estimate -->
+
+
+	<!-- Section: contact -->
+    <section id="contact" class="home-section nopadd-bot color-dark bg-gray text-center">
+		<div class="container marginbot-50">
+			<div class="row">
+				<div class="col-lg-8 col-lg-offset-2">
+					<div class="animatedParent">
+						<div class="section-heading text-center">
+							<h2 class="h-bold animated bounceInDown">Get in touch with us</h2>
+							<div class="divider-header"></div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+		
+		<div class="container">
+			<div class="row marginbot-80">
+				<div class="col-md-8 col-md-offset-2">
+
+					<p>Pleasant Housekeeping</p>
+
+					<p>Email: brooke@pleasanthousekeeping.com</p>
+
+					<p>Phone: (843) 885-8606</p>
+
+					<p>Facebook: facebook.com/pleasanthousekeeping</p>
+
+					<p>Instagram: pleasanthousekeeping</p>
+
+					<p>Mailing address: PO Box Isle of Palms, SC 29451</p>
+
+					<!-- <div class="submit-question">
+						<p>Submit a question / show contact form</p>					
+					</div>
+
+					<div>
+						<p>Hide this panel to start</p>	
+					</div>
+ -->
+
+					<!-- 	<form id="contact-form">
+						<div class="row marginbot-20">
+							<div class="col-md-6 xs-marginbot-20">
+								<input type="text" class="form-control input-lg" id="name" placeholder="Enter name" required="required" />
+							</div>
+							<div class="col-md-6">
+								<input type="email" class="form-control input-lg" id="email" placeholder="Enter email" required="required" />
+							</div>
+						</div>
+						<div class="row">
+							<div class="col-md-12">
+								<div class="form-group">
+									<input type="text" class="form-control input-lg" id="subject" placeholder="Subject" required="required" />
+								</div>
+								<div class="form-group">
+									<textarea name="message" id="message" class="form-control" rows="4" cols="25" required="required" placeholder="Message"></textarea>
+								</div>						
+								<button type="submit" class="btn btn-skin btn-lg btn-block" id="btnContactUs">
+									Send Message</button>
+							</div>
+						</div>
+					</form> -->
 
 				</div>
 			</div>	
