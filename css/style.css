@@ -959,7 +959,6 @@ a.btn:focus{
   background-image: none;
 }
 
-
 .btn-skin:hover,
 .btn-skin:focus,
 .btn-skin:active,
@@ -968,7 +967,6 @@ a.btn:focus{
   background-color: #666;
   border-color: #666;
 }
-
 
 .btn-default:hover,
 .btn-default:focus {
@@ -1098,14 +1096,13 @@ a.btn:focus{
 	}
 }
 
-
-#wufoo-mijlzln1pvp5ps {
-	#header {
-		display: none;
-	}
-}
-
 .service-list {
 	padding: 30px;
+}
+
+.heading-phone {
+ 	font-size: 32px;
+ 	color: #fff;
+ 	padding-bottom: 10px;
 }
 
